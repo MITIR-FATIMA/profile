@@ -1,0 +1,75 @@
+.text-center {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(10, 10, 10);
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgba(8, 8, 8, 0.746);
+  font-weight: 900;
+  line-height: 1.8;
+}
+.img-circle {
+  width: 100px;
+  height: 100px ;
+  border-radius: 50%;
+}
+
+h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgba(32, 209, 130, 0.984);
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border: 1px solid rgb(85, 23, 210);
+  background: rgb(82, 25, 173);
+  margin-right: 50px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5%;
+  margin-top: 25%;
+}
+a :hover {
+  background-color: black;
+
+}
+P {
+  font-family: Times, serif;
+  font-size: 15px;
+
+}
+.card {
+  width: 500px;   /* Définit la largeur */
+  margin: 5% auto;
+  box-shadow: 2px 2px 2px 2px rgba(93, 92, 92, 0.413);
+  padding: 100px;
+  padding-top: 2%;
+}
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 5% auto;
+  background:white;
+  box-shadow: 2px 2px 2px 2px rgba(93, 92, 92, 0.413);
+  padding: 100px;
+  text-align: center;
+  height:200px ;
+  padding-top: 2%;
+}
+.list-inline > li {
+  display: inline-block;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
